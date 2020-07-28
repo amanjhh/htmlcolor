@@ -1,0 +1,563 @@
+<html>
+<head>
+<title>htnlcolor</title>
+
+
+
+<style>
+  *{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: cursive;
+
+
+}
+nav{
+  background:  #abb2b9;
+width:100%;
+height: 60px;
+
+
+position: fixed;
+z-index: 100;
+}
+
+
+h2{float: left;
+width:70px;
+padding-top: 15px;
+
+
+
+}
+nav input{
+height: 30px;
+margin-top: 15px;
+outline: none;
+float: left;
+}
+
+header{
+margin-left: 40%;
+
+
+}
+
+
+
+h1{
+position: absolute;
+top: 60px;
+font-size: 60px;
+left:30%;
+letter-spacing: 20px;
+}
+
+main{
+position: absolute;
+top: 145px;
+left: 5%;
+
+}
+
+div{
+width: 100px;
+height: 100px;
+margin: 3px;
+float: left;
+border-radius:50%;
+transition: all 0.3s;
+}
+div:hover{
+transform: scale(1.5);
+border-radius: 15px;
+
+}
+.div1{background-color:#FF5733; }
+.div2{background-color:#F08080; }
+.div3{background-color:#FA8072; }
+.div4{background-color:#E9967A; }
+.div5{background-color:#FFA07A; }
+.div6{background-color:#DC143C; }
+.div7{background-color:#FF0000; }
+.div8{background-color:	#B22222; }
+.div9{background-color:#8B0000; }
+.div10{background-color:#CD5C5C; }
+
+
+.div11{background-color:#FFC0CB; }
+.div12{background-color:#FFB6C1; }
+.div13{background-color:#FF69B4; }
+.div14{background-color:#FF1493; }
+.div15{background-color:#C71585; }
+.div16{background-color:#DB7093; }
+.div17{background-color:#FFA07A; }
+.div18{background-color:#FF7F50; }
+.div19{background-color:#FF6347; }
+.div20{background-color:#FF4500; }
+.div21{background-color:#FF8C00; }
+.div22{background-color:#FFA500; }
+.div23{background-color:#FFD700; }
+.div24{background-color:#FFFF00; }
+.div25{background-color:#FFFFE0; }
+.div26{background-color:#FFFACD; }
+.div27{background-color:#FAFAD2; }
+.div28{background-color:#FFEFD5; }
+.div29{background-color:#FFE4B5; }
+.div30{background-color:#FFDAB9; }
+.div31{background-color:#EEE8AA; }
+.div32{background-color:#F0E68C; }
+.div33{background-color:#BDB76B; }
+.div34{background-color:#E6E6FA; }
+.div35{background-color:#D8BFD8; }
+.div36{background-color:#DDA0DD; }
+.div37{background-color:#EE82EE; }
+.div38{background-color:#DA70D6; }
+.div39{background-color:#FF00FF; }
+.div40{background-color:#BA55D3; }
+.div41{background-color:#9370DB; }
+.div42{background-color:#663399; }
+.div43{background-color:#8A2BE2; }
+.div44{background-color:#9400D3; }
+.div45{background-color:#9932CC; }
+.div46{background-color:#8B008B; }
+.div47{background-color:#800080; }
+.div48{background-color:#4B0082; }
+.div49{background-color:#6A5ACD; }
+.div50{background-color:#483D8B; }
+.div51{background-color:#7B68EE; }
+.div52{background-color:#ADFF2F; }
+.div53{background-color:#7FFF00; }
+.div54{background-color:#7CFC00; }
+.div55{background-color:#00FF00; }
+.div56{background-color:#32CD32; }
+.div57{background-color:#98FB98; }
+.div58{background-color:#90EE90; }
+.div59{background-color:#00FA9A; }
+.div60{background-color:#00FF7F; }
+.div61{background-color:#3CB371; }
+.div62{background-color:#2E8B57; }
+.div63{background-color:#228B22; }
+.div64{background-color:#008000; }
+.div65{background-color:#006400; }
+.div66{background-color:#9ACD32; }
+.div67{background-color:#6B8E23; }
+.div68{background-color:#808000; }
+.div69{background-color:#556B2F; }
+.div70{background-color:#66CDAA; }
+.div71{background-color:#8FBC8B; }
+.div72{background-color:#20B2AA; }
+.div73{background-color:#008B8B; }
+.div74{background-color:#008080; }
+.div75{background-color:#00FFFF; }
+.div76{background-color:#00FFFF; }
+.div77{background-color:#E0FFFF; }
+.div78{background-color:#AFEEEE; }
+.div79{background-color:#7FFFD4; }
+.div80{background-color:#40E0D0; }
+.div81{background-color:#48D1CC; }
+.div82{background-color:#00CED1; }
+.div83{background-color:#5F9EA0; }
+.div84{background-color:#4682B4; }
+
+  </style>
+  </head>
+  <body>
+<nav>
+  <h2 for="">code</h2>
+  <input type="text" name="text" value="" id="input">
+
+</nav>
+
+<main class="divmain">
+
+<div class="div1" onclick="div1()"></div>
+<div class="div2" onclick="div2()"></div>
+<div class="div3" onclick="div3()"></div>
+<div class="div4" onclick="div4()"></div>
+<div class="div5" onclick="div5()"></div>
+<div class="div6" onclick="div6()"></div>
+<div class="div7" onclick="div7()"></div>
+<div class="div8" onclick="div8()"></div>
+<div class="div9" onclick="div9()"></div>
+<div class="div10" onclick="div10()"></div>
+<div class="div11" onclick="div11()"></div>
+<div class="div12" onclick="div12()"></div>
+<div class="div13" onclick="div13()"></div>
+<div class="div14" onclick="div14()"></div>
+<div class="div15" onclick="div15()"></div>
+<div class="div16" onclick="div16()"></div>
+<div class="div17" onclick="div17()"></div>
+<div class="div18" onclick="div18()"></div>
+<div class="div19" onclick="div19()"></div>
+<div class="div20" onclick="div20()"></div>
+<div class="div21" onclick="div21()"></div>
+<div class="div22" onclick="div22()"></div>
+<div class="div23" onclick="div23()"></div>
+<div class="div24" onclick="div24()"></div>
+<div class="div25" onclick="div25()"></div>
+<div class="div26" onclick="div26()"></div>
+<div class="div27" onclick="div27()"></div>
+<div class="div28" onclick="div28()"></div>
+<div class="div29" onclick="div29()"></div>
+<div class="div30" onclick="div30()"></div>
+<div class="div31" onclick="div31()"></div>
+<div class="div32" onclick="div32()"></div>
+<div class="div33" onclick="div33()"></div>
+<div class="div34" onclick="div34()"></div>
+<div class="div35" onclick="div35()"></div>
+<div class="div36" onclick="div36()"></div>
+<div class="div37" onclick="div37()"></div>
+<div class="div38" onclick="div38()"></div>
+<div class="div39" onclick="div39()"></div>
+<div class="div40" onclick="div40()"></div>
+<div class="div41" onclick="div41()"></div>
+<div class="div42" onclick="div42()"></div>
+<div class="div43" onclick="div43()"></div>
+<div class="div44" onclick="div44()"></div>
+<div class="div45" onclick="div45()"></div>
+<div class="div46" onclick="div46()"></div>
+<div class="div47" onclick="div47()"></div>
+<div class="div48" onclick="div48()"></div>
+<div class="div49" onclick="div49()"></div>
+<div class="div50" onclick="div50()"></div>
+<div class="div51" onclick="div51()"></div>
+<div class="div52" onclick="div52()"></div>
+<div class="div53" onclick="div53()"></div>
+<div class="div54" onclick="div54()"></div>
+<div class="div55" onclick="div55()"></div>
+<div class="div56" onclick="div56()"></div>
+<div class="div57" onclick="div57()"></div>
+<div class="div58" onclick="div58()"></div>
+<div class="div59" onclick="div59()"></div>
+<div class="div60" onclick="div60()"></div>
+<div class="div61" onclick="div61()"></div>
+<div class="div62" onclick="div62()"></div>
+<div class="div63" onclick="div63()"></div>
+<div class="div64" onclick="div64()"></div>
+<div class="div65" onclick="div65()"></div>
+<div class="div66" onclick="div66()"></div>
+<div class="div67" onclick="div67()"></div>
+<div class="div68" onclick="div68()"></div>
+<div class="div69" onclick="div69()"></div>
+<div class="div70" onclick="div70()"></div>
+<div class="div71" onclick="div71()"></div>
+<div class="div72" onclick="div72()"></div>
+<div class="div73" onclick="div73()"></div>
+<div class="div74" onclick="div74()"></div>
+<div class="div75" onclick="div75()"></div>
+<div class="div76" onclick="div76()"></div>
+<div class="div77" onclick="div77()"></div>
+<div class="div78" onclick="div78()"></div>
+<div class="div79" onclick="div79()"></div>
+<div class="div80" onclick="div80()"></div>
+<div class="div81" onclick="div81()"></div>
+<div class="div82" onclick="div82()"></div>
+<div class="div83" onclick="div83()"></div>
+<div class="div84" onclick="div84()"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</main>
+
+
+
+
+
+
+
+    <script>
+function div1() {
+  document.getElementById('input').value="#FF5733";
+}
+function div2() {
+  document.getElementById('input').value="#F08080";
+}
+function div3() {
+  document.getElementById('input').value="#FA8072";
+}
+function div4() {
+  document.getElementById('input').value="#E9967A";
+}
+function div5() {
+  document.getElementById('input').value="#FFA07A";
+}
+function div6() {
+  document.getElementById('input').value="#DC143C";
+}
+function div7() {
+  document.getElementById('input').value="#FF0000";
+}
+
+function div8() {
+  document.getElementById('input').value="#B22222";
+}
+function div9() {
+  document.getElementById('input').value="#8B0000";
+}
+function div10() {
+  document.getElementById('input').value="#CD5C5C";
+
+}
+
+function div11() {
+  document.getElementById('input').value="#FFC0CB";
+}
+function div12() {
+  document.getElementById('input').value="#FFB6C1";
+}
+function div13() {
+  document.getElementById('input').value="#FF69B4";
+}
+function div14() {
+  document.getElementById('input').value="#FF1493";
+}
+function div15() {
+  document.getElementById('input').value="#C71585";
+}
+function div16() {
+  document.getElementById('input').value="#DB7093";
+}
+function div17() {
+  document.getElementById('input').value="#FFA07A";
+}
+
+function div18() {
+  document.getElementById('input').value="#FF7F50";
+}
+function div19() {
+  document.getElementById('input').value=	"#FF6347";
+}
+function div20() {
+  document.getElementById('input').value="#FF4500";
+}
+function div21() {
+  document.getElementById('input').value="#FF8C00";
+}
+function div22() {
+  document.getElementById('input').value="#FFA500";
+}
+function div23() {
+  document.getElementById('input').value="#FFD700";
+}
+function div24() {
+  document.getElementById('input').value="#FFFF00";
+}
+function div25() {
+  document.getElementById('input').value="#FFFFE0";
+}
+function div26() {
+  document.getElementById('input').value="#FFFACD";
+}
+function div27() {
+  document.getElementById('input').value="#FAFAD2";
+}
+
+function div28() {
+  document.getElementById('input').value="#FFEFD5";
+}
+function div29() {
+  document.getElementById('input').value="#FFE4B5";
+
+}
+function div30() {
+  document.getElementById('input').value="#FFDAB9";
+
+}
+function div31() {
+  document.getElementById('input').value="#EEE8AA";
+
+}
+function div31() {
+  document.getElementById('input').value="#EEE8AA";
+
+}
+function div32() {
+  document.getElementById('input').value="#F0E68C";
+}
+function div33() {
+  document.getElementById('input').value="#BDB76B";
+}
+function div4() {
+  document.getElementById('input').value="#E6E6FA";
+}
+function div35() {
+  document.getElementById('input').value="#D8BFD8";
+}
+function div36() {
+  document.getElementById('input').value="#DDA0DD";
+}
+function div37() {
+  document.getElementById('input').value="#EE82EE";
+}
+function div38() {
+  document.getElementById('input').value="#DA70D6";
+}
+
+function div39() {
+  document.getElementById('input').value="#FF00FF";
+}
+function div40() {
+  document.getElementById('input').value="#BA55D3";
+}
+
+function div41() {
+  document.getElementById('input').value="#9370DB";
+}
+function div42() {
+  document.getElementById('input').value="#663399";
+}
+function div43() {
+  document.getElementById('input').value="#8A2BE2";
+}
+function div44() {
+  document.getElementById('input').value="#9400D3";
+}
+function div45() {
+  document.getElementById('input').value="#9932CC";
+}
+function div46() {
+  document.getElementById('input').value="#8B008B";
+}
+function div47() {
+  document.getElementById('input').value="#800080";
+}
+
+function div48() {
+  document.getElementById('input').value="#4B0082";
+}
+function div49() {
+  document.getElementById('input').value="#6A5ACD";
+}
+function div50() {
+  document.getElementById('input').value="#483D8B";
+}
+function div51() {
+  document.getElementById('input').value="#7B68EE";
+}
+function div52() {
+  document.getElementById('input').value="#ADFF2F";
+}
+function div53() {
+  document.getElementById('input').value="#7FFF00";
+}
+function div54() {
+  document.getElementById('input').value="#7CFC00";
+}
+function div55() {
+  document.getElementById('input').value="#00FF00";
+}
+function div56() {
+  document.getElementById('input').value="#32CD32";
+}
+function div57() {
+  document.getElementById('input').value="#98FB98";
+}
+
+function div58() {
+  document.getElementById('input').value="#90EE90";
+}
+function div59() {
+  document.getElementById('input').value="#00FA9A";
+}
+function div60() {
+  document.getElementById('input').value="#00FF7F";
+}
+function div61() {
+  document.getElementById('input').value="#3CB371";
+}
+function div62() {
+  document.getElementById('input').value="#2E8B57";
+}
+function div63() {
+  document.getElementById('input').value="#228B22";
+}
+function div64() {
+  document.getElementById('input').value="#008000";
+}
+function div65() {
+  document.getElementById('input').value="#006400";
+}
+function div66() {
+  document.getElementById('input').value="#9ACD32";
+}
+function div67() {
+  document.getElementById('input').value="#6B8E23";
+}
+
+function div68() {
+  document.getElementById('input').value="#808000";
+}
+function div69() {
+  document.getElementById('input').value="#556B2F";
+}
+function div70() {
+  document.getElementById('input').value="#66CDAA";
+}
+function div71() {
+  document.getElementById('input').value="#8FBC8B";
+}
+function div72() {
+  document.getElementById('input').value="#20B2AA";
+}
+function div73() {
+  document.getElementById('input').value="#008B8B";
+}
+function div74() {
+  document.getElementById('input').value="#008080";
+}
+function div75() {
+  document.getElementById('input').value="#00FFFF";
+}
+function div76() {
+  document.getElementById('input').value="#00FFFF";
+}
+function div77() {
+  document.getElementById('input').value="#E0FFFF";
+}
+
+function div78() {
+  document.getElementById('input').value="#AFEEEE";
+}
+function div79() {
+  document.getElementById('input').value="#7FFFD4";
+}
+function div80() {
+  document.getElementById('input').value="#40E0D0";
+}
+function div81() {
+  document.getElementById('input').value="#48D1CC";
+}
+function div82() {
+  document.getElementById('input').value="#00CED1";
+}
+function div83() {
+  document.getElementById('input').value="#5F9EA0";
+}
+function div84() {
+  document.getElementById('input').value="#4682B4";
+}
+
+    </script>
+  </body>
+</html>
